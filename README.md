@@ -18,9 +18,20 @@ Proyek Basis Data: Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand N
 - ERD.text                 → Diagram ERD (Entity Relationship Diagram)            
 
 # Cara Menjalankan
-1. Import `nyamhap_schema.sql` ke PostgreSQL.
-2. Jalankan `nyamhap_data.sql` untuk dummy data.
-3. Gunakan `mission_objectives.sql` untuk query sesuai kebutuhan.
+Untuk menjalankan aplikasi NyamHap, pastikan database dan lingkungan pengembangan sudah terkonfigurasi dengan benar. Berikut langkah-langkah setup:
+1. Install XAMPP dan aktifkan modul Apache
+- Digunakan untuk menjalankan server lokal dan mengeksekusi file PHP.
+2. Gunakan PostgreSQL (via DBeaver atau tools lain).
+- PostgreSQL digunakan sebagai sistem manajemen basis data.
+- DBeaver membantu dalam visualisasi dan eksekusi query SQL.
+3. Import file SQL
+- Buka file dummy-NYAMHAP.sql (kalau data base belum di buat).
+- Jalankan semua script untuk membuat tabel dan mengisi data awal.
+4. Buka Visual Studio Code (VS Code)
+- Untuk mengedit file PHP seperti index.php, edit.php, dan lainnya.
+- Menjalankan proyek lokal di folder htdocs/NYAMHAP (jika pakai XAMPP).
+- Memastikan struktur folder, koneksi database, dan logika aplikasi bisa dikelola dengan nyaman.
+- Langkah: Buka folder proyek NYAMHAP di VS Code.
 
 # Mission Objectives yang Disediakan
 A. Pencarian Data
