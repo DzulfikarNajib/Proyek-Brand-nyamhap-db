@@ -1,21 +1,11 @@
 # Brand-nyamhap-db-project-
-Proyek Basis Data: Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand NyamHap. Berisi rancangan tabel, constraint, dummy data, serta query mission objectives menggunakan PostgreSQL.
+Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand NyamHap. Berisi rancangan tabel, constraint, dummy data, serta query mission objectives menggunakan PostgreSQL.
 
-# Team 7
+# Our Team
 - Dzulfikar Najib (M0401241043)
 - Valent Trityo Gratia W. (M0401241074)
 - Fido Ahmad Amirza Rifqi (M0401241115)
-- Fadillah Handayani (M0401241017)
-
-# Struktur file (brand-nyamhap-db-project)
-1. README.md              
-2. rancangan_fisik.md        → Rancangan fisik database (atribut, tipe data, constraints)
-3. sql/                        
-- nyamhap_schema.sql      → Script CREATE TABLE (schema database)
-- nyamhap_data.sql        → Script INSERT dummy data
-- mission_objectives.sql  → Script query mission objectives      
-4. docs/                     
-- ERD.text                 → Diagram ERD (Entity Relationship Diagram)            
+- Fadillah Handayani (M0401241017)           
 
 # Cara Menjalankan
 Untuk menjalankan aplikasi NyamHap, pastikan database dan lingkungan pengembangan sudah terkonfigurasi dengan benar. Berikut langkah-langkah setup:
